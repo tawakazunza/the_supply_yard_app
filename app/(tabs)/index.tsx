@@ -1,11 +1,11 @@
 // app/index.tsx
-import { images, offers } from "@/constants";
-import React, { Fragment, useState, useEffect } from "react";
-import { FlatList, Pressable, ScrollView, Text, TouchableOpacity, View, Image, Alert } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-import cn from 'clsx';
 import CartButton from "@/components/CartButton";
+import { images, offers } from "@/constants";
+import cn from 'clsx';
 import * as Location from 'expo-location';
+import React, { Fragment, useEffect, useState } from "react";
+import { FlatList, Image, Pressable, Text, TouchableOpacity, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function WelcomePage() {
   const [location, setLocation] = useState<string>("Getting location...");

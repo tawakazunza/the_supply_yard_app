@@ -4,6 +4,7 @@ import arrowRight from "@/assets/icons/arrow-right.png";
 import bag from "@/assets/icons/bag.png";
 import check from "@/assets/icons/check.png";
 import clock from "@/assets/icons/clock.png";
+import delivery from "@/assets/icons/delivery.png";
 import dollar from "@/assets/icons/dollar.png";
 import envelope from "@/assets/icons/envelope.png";
 import home from "@/assets/icons/home.png";
@@ -167,12 +168,14 @@ export const images = {
     avatar,
     avocado,
     bacon,
+    bag,
     burgerOne,
     burgerTwo,
     buritto,
     cheese,
     coleslaw,
     cucumber,
+    delivery,
     emptyState,
     fries,
     loginGraphic,
@@ -194,7 +197,6 @@ export const images = {
     arrowBack,
     arrowDown,
     arrowRight,
-    bag,
     check,
     clock,
     dollar,
